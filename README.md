@@ -1,16 +1,18 @@
-# Life Simulator — live demo
+# Life Simulator 🧭
 
 **Try it:** https://ar7ti.github.io/life-simulator-demo/
 
-Life Simulator is an AI life copilot for the moments that matter — moving, buying a first car, furnishing a home,
-planning a trip or starting an independent life. It turns a plain-language goal into a workspace with a budget,
-tasks, shopping research, risks and a protection plan.
+Life Simulator is an AI helper for big life moments, like moving to a new city, buying your first car,
+furnishing your apartment or planning a trip. You tell it what you're planning and it makes a plan with a budget,
+tasks and things to buy.
 
-Built by [Kirill Jegosin](https://github.com/Ar7ti) for the If Insurance challenge at JunctionX Turku.
+I made it for the If Insurance challenge at Junction X Turku.
 
-## About this demo
-This repository holds only the **static build** of the web app, running in its **offline demo mode**: the planner and
-offers use built-in, clearly labelled fictional data, and no AI or backend calls are made. The full version adds a
-Fastify API with OpenAI-based planning and source-grounded web research.
+This repo is only the demo version of the website. It works without a server, so the plans and offers you see
+are example data, not real AI results. The full version has a backend with OpenAI that makes real plans and
+searches for real offers.
 
-**Stack:** React 19 · TypeScript · Vite · Tailwind CSS · TanStack Query · Zustand · Zod · Fastify · OpenAI API · Playwright
+Made with React, TypeScript, Vite and Tailwind. The full version also uses Fastify and the OpenAI API.
+
+Feel free to try it and tell me what you think 👇
+[LinkedIn](https://www.linkedin.com/in/kirill-jegosin-807199412/) · [GitHub](https://github.com/Ar7ti)
